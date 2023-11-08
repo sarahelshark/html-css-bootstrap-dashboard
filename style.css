@@ -10,7 +10,7 @@
     color: rgb(126, 122, 122);
 }
 
-
-nav ~ .row{
-    height: 85px;
+.debug .container{
+    margin-top: 85px;
+    background-color: blueviolet;
 }
