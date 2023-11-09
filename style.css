@@ -17,3 +17,7 @@
 .list-unstyled.d-flex >li{
   padding: 5px;
 }
+
+.table{
+    width: 80%;
+}
