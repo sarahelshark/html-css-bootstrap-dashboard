@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="">
-   <nav class="navbar navbar-expand-lg  bg-dark border-bottom border-body" data-bs-theme="dark" >
+   <nav class="navbar navbar-expand-lg  bg-dark  border-body" data-bs-theme="dark" >
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./img/duck.png" alt="white duck as logo" >
             </a>
-            <button class="navbar-toggler dropdown" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"   aria-label="Toggle navigation">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
             
-            <div class="collapse navbar-collapse" id="navbarScroll">
-               <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link disabled" aria-current="page" href="#">Catalogo Libri</a>
+                  <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" aria-disabled="true">Anagrafica Utenti</a>
@@ -32,12 +33,14 @@
                   <a class="nav-link disabled" aria-disabled="true">Help</a>
                 </li>
               </ul>
+              
              <!--end of navbar's left side-->
               <form class="d-flex" role="search">
                  <input class="form-control me-2 bg-light text-bg-primary" type="search" placeholder="Cerca..." aria-label="Search">
                  <button class="btn btn-outline-light" type="submit">Cerca</button>
               </form>
-          </div>
+          
+            </div>
         </div>
     </nav>
     <!--end of responsive nav bar-->
