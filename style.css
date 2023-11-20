@@ -29,11 +29,13 @@
     .table{
         width: 95%;
     }
+    
 }
 @media screen and (max-width:758px){
     .table{
         width: 100%;
     }
+    
 
 }
 
